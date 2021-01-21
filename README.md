@@ -3,11 +3,21 @@ A simple, abstract bot to post new blog postings
 
 - [DiscordAlert.py](#discordalertpy)
 - [Examples](#examples)
+- [Usage](#usage)
 - [Docs](#docs)
 
 # Examples
 
 see a Template for a minimal webhook: "./template/minimal python webhook example.py"
+
+# Usage
+
+create the file `.private/config.json`, and enter your webhook url
+```json
+{
+    "WebhookUrl": "https://discord.com/api/webhooks/1234567/yourWebHook"
+}
+```
 
 # Docs
 
